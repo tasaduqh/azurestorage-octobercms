@@ -25,7 +25,7 @@ class Plugin extends PluginBase
         return [
             'name' => 'AzureStorage',
             'description' => 'Azure Blob Storage Adapter for October CMS',
-            'author' => 'TasaduqH',
+            'author' => 'Tasaduq',
             'icon' => 'icon-leaf'
         ];
     }
