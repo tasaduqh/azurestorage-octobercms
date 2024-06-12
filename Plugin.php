@@ -1,4 +1,4 @@
-<?php namespace Tasaduq\AzureStorage;
+<?php namespace Tasaduqh\AzureStorage;
 
 use Backend;
 use System\Classes\PluginBase;
