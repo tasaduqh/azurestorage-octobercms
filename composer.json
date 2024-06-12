@@ -1,7 +1,7 @@
 {
-    "name": "tasaduq/azurestorage-plugin",
+    "name": "tasaduqh/azurestorage-plugin",
     "type": "october-plugin",
-    "description": "No description provided yet...",
+    "description": "Azure Blob Storage Adapter for October CMS",
     "require": {
         "composer/installers": "~1.0"
     }
