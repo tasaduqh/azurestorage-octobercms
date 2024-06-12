@@ -1,4 +1,4 @@
-<?php namespace Tasaduqh\AzureStorage;
+<?php namespace TasaduqH\AzureStorage;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -87,7 +87,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            'Tasaduq\AzureStorage\Components\MyComponent' => 'myComponent',
+            'TasaduqH\AzureStorage\Components\MyComponent' => 'myComponent',
         ];
     }
 
@@ -99,7 +99,7 @@ class Plugin extends PluginBase
         return []; // Remove this line to activate
 
         return [
-            'tasaduq.azurestorage.some_permission' => [
+            'tasaduqh.azurestorage.some_permission' => [
                 'tab' => 'AzureStorage',
                 'label' => 'Some permission'
             ],
@@ -116,9 +116,9 @@ class Plugin extends PluginBase
         return [
             'azurestorage' => [
                 'label' => 'AzureStorage',
-                'url' => Backend::url('tasaduq/azurestorage/mycontroller'),
+                'url' => Backend::url('tasaduqh/azurestorage/mycontroller'),
                 'icon' => 'icon-leaf',
-                'permissions' => ['tasaduq.azurestorage.*'],
+                'permissions' => ['tasaduqh.azurestorage.*'],
                 'order' => 500,
             ],
         ];
